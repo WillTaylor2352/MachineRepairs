@@ -1,10 +1,10 @@
 import Nav_Buttons from '../client/Navigation_buttons';
-const li = 'inline  m-4';
-const ul = 'list-none';
+const li = 'm-4';
+const ul = 'w-full inline-flex justify-center';
 
 export default function Navigation() {
 	return (
-		<div>
+		<div className="w-full">
 			<ul className={`${ul}`}>
 				<li className={`${li}`}>
 					<Nav_Buttons title={'Home'} link={'/'} />
