@@ -23,3 +23,9 @@ body {
 h1 {
 	font-size: x-large;
 }
+
+@layer components {
+	.btn {
+		@apply bg-red-800 p-3 rounded-xl font-semibold;
+	}
+}
