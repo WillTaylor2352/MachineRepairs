@@ -22,6 +22,6 @@ body {
 
 @layer components {
 	.btn {
-		@apply bg-red-800 p-3 rounded-xl font-semibold;
+		@apply bg-gray-700 p-3 rounded-2xl border-solid border-2;
 	}
 }

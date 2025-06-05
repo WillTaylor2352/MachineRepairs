@@ -1,17 +1,11 @@
 'use client';
 
-export default function Button({
-	callback,
-	title,
-	classes,
-	description,
-	overrideClasses = false,
-}) {
+export default function Button({ callback, title, classes, description }) {
 	return (
 		<div>
 			<button
 				onClick={callback}
-				className={`${overrideClasses ? classes : `btn`}`}
+				className={`${classes != null ? classes : `btn`}`}
 				title={title}
 			>
 				{description}
