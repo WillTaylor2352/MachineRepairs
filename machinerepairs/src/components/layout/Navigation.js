@@ -1,7 +1,8 @@
 import Nav_Buttons from '../client/Navigation_buttons';
 import ThemeSwitcher from '../client/ThemeSwitcher';
 const liclass = 'm-4';
-const ul = 'inline-flex justify-center clear-end';
+const ulclass = 'inline-flex justify-center clear-end';
+const leftRightSizing = 'min-w-16 max-w-24';
 
 export default function Navigation() {
 	const navItems = [
@@ -24,8 +25,8 @@ export default function Navigation() {
 	];
 	return (
 		<div className="mt-3 flex justify-evenly">
-			<span className="min-w-16 max-w-24"></span>
-			<ul className={`${ul}`}>
+			<span className={`${leftRightSizing}`}></span>
+			<ul className={`${ulclass}`}>
 				{navItems.map((li) => {
 					return (
 						<li className={`${liclass}`}>
@@ -34,7 +35,7 @@ export default function Navigation() {
 					);
 				})}
 			</ul>
-			<ThemeSwitcher li={liclass} />
+			<ThemeSwitcher li={liclass} lrs={`${leftRightSizing}`} />
 		</div>
 	);
 }
