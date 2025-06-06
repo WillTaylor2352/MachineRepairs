@@ -26,7 +26,7 @@ export default function ThemeSwitcher(props) {
 	}, []);
 
 	return (
-		<div className={`flex min-w-16 max-w-24 items-center justify-center`}>
+		<div className={`flex ${props.lrs} items-center justify-center`}>
 			{(theme === 'light' && (
 				<button className={`${imagePadding}`} onClick={handleClick}>
 					<Image
