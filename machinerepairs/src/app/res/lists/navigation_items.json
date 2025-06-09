@@ -1,0 +1,26 @@
+{
+	"home": [
+		{
+			"title": "Home",
+			"link": "/"
+		}
+	],
+	"counter_sales": [
+		{
+			"title": "Counter Sales",
+			"link": "/CounterSales"
+		}
+	],
+	"dispatch": [
+		{
+			"title": "Dispatch",
+			"link": "/DispatchCoordinator"
+		}
+	],
+	"repair_tech": [
+		{
+			"title": "Repair Tech",
+			"link": "/RepairTech"
+		}
+	]
+}
