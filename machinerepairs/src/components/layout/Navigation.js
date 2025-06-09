@@ -6,11 +6,11 @@ const liclass = 'm-4';
 const ulclass = 'inline-flex justify-center clear-end';
 const leftRightSizing = 'min-w-16 max-w-24';
 
-export default async function Navigation() {
+export default async function Navigation({ className }) {
 	const navItems = data;
 	let currkey = 0;
 	return (
-		<div className="mt-3 flex justify-evenly">
+		<div className={`mt-3 flex justify-evenly ${className}`}>
 			<span className={`${leftRightSizing}`}></span>
 			<ul className={`${ulclass}`}>
 				{Object.entries(navItems).map((li) => {

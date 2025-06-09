@@ -6,7 +6,7 @@ export default function Home() {
 	const buttonItemSpacing = 'mt-3';
 	return (
 		<div className="item flex h-full flex-col items-center">
-			<div className="m-auto flex w-1/2 flex-col items-center pb-[15vh] text-center">
+			<div className="m-auto flex flex-col items-center pb-[15vh] text-center md:w-1/2">
 				<h1
 					className={`${defaultstyle} mb-[calc(5vh)] border-b-[1px] text-3xl`}
 				>
