@@ -22,13 +22,15 @@ export default function Navigation() {
 			link: '/RepairTech',
 		},
 	];
+	let currkey = 0;
 	return (
 		<div className="mt-3 flex justify-evenly">
 			<span className="min-w-16 max-w-24"></span>
 			<ul className={`${ul}`}>
 				{navItems.map((li) => {
+					currkey += 1;
 					return (
-						<li className={`${liclass}`}>
+						<li key={currkey} className={`${liclass}`}>
 							<Nav_Buttons title={li.title} link={li.link} />
 						</li>
 					);
