@@ -10,7 +10,7 @@ export default async function Navigation({ className }) {
 	const navItems = data;
 	let currkey = 0;
 	return (
-		<div className={`mt-3 flex justify-evenly ${className}`}>
+		<div className={`flex justify-evenly md:mt-3 ${className}`}>
 			<span className={`${leftRightSizing}`}></span>
 			<ul className={`${ulclass}`}>
 				{Object.entries(navItems).map((li) => {
