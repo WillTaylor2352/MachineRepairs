@@ -25,7 +25,7 @@ export default async function Navigation() {
 					);
 				})}
 			</ul>
-			<ThemeSwitcher li={liclass} />
+			<ThemeSwitcher li={liclass} lrs={`${leftRightSizing}`} />
 		</div>
 	);
 }
