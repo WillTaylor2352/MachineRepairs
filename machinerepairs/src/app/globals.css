@@ -25,7 +25,11 @@ body {
 }
 
 h1 {
-	font-size: x-large;
+	@apply text-3xl;
+}
+
+h2 {
+	@apply mb-2 text-xl;
 }
 
 @layer components {
