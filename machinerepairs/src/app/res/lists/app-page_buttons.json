@@ -1,0 +1,70 @@
+{
+	"Create": [
+		{
+			"ButtonTextAndLink": [
+				{
+					"Text": "Check in",
+					"Link": "/CheckIn",
+					"function": ""
+				},
+				{
+					"Text": "Transfer",
+					"Link": "/Transfer",
+					"function": ""
+				},
+				{
+					"Text": "Customer Contact",
+					"Link": "/CustomerContact",
+					"function": ""
+				},
+				{
+					"Text": "Machine for Customer",
+					"Link": "/CustomerMachine",
+					"function": ""
+				}
+			]
+		}
+	],
+	"Edit": [
+		{
+			"ButtonTextAndLink": [
+				{
+					"Text": "Machine Repair",
+					"Link": "/MachineRepair",
+					"function": ""
+				},
+				{
+					"Text": "Machine",
+					"Link": "/Machine",
+					"function": ""
+				},
+				{
+					"Text": "Customer Contact",
+					"Link": "/CustomerContact",
+					"function": ""
+				},
+				{
+					"Text": "Transfer",
+					"Link": "/Transfer",
+					"function": ""
+				}
+			]
+		}
+	],
+	"Process": [
+		{
+			"ButtonTextAndLink": [
+				{
+					"Text": "Machine Repair",
+					"Link": "/MachineRepair",
+					"function": ""
+				},
+				{
+					"Text": "Transfer",
+					"Link": "/Transfer",
+					"function": ""
+				}
+			]
+		}
+	]
+}
