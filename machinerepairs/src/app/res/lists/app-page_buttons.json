@@ -3,23 +3,13 @@
 		{
 			"ButtonData": [
 				{
-					"Text": "Check in",
-					"Link": "/CheckIn",
+					"Text": "Machine Repair",
+					"Link": "/MachineRepair",
 					"function": ""
 				},
 				{
 					"Text": "Transfer",
 					"Link": "/Transfer",
-					"function": ""
-				},
-				{
-					"Text": "Customer Contact",
-					"Link": "/CustomerContact",
-					"function": ""
-				},
-				{
-					"Text": "Machine for Customer",
-					"Link": "/CustomerMachine",
 					"function": ""
 				}
 			]
@@ -63,6 +53,20 @@
 					"Text": "Transfer",
 					"Link": "/Transfer",
 					"function": ""
+				}
+			]
+		}
+	],
+	"Help": [
+		{
+			"ButtonData": [
+				{
+					"Text": "What's all this?",
+					"Link": "/FAQ"
+				},
+				{
+					"Text": "What do I do next?",
+					"Link": "/Steps"
 				}
 			]
 		}

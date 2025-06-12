@@ -33,11 +33,6 @@ export default function RootLayout({ children }) {
 				<main className="h-[calc(100vh-20vh)] min-h-[calc(100vh-30vh)]">
 					{children}
 				</main>
-				<footer className="row-start-3 flex h-[50px] flex-wrap items-center justify-center gap-4">
-					<div>
-						<p>footer goes here</p>
-					</div>
-				</footer>
 			</body>
 		</html>
 	);
