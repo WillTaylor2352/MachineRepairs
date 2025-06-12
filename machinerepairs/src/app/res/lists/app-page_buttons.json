@@ -1,5 +1,5 @@
 {
-	"Create": [
+	"CREATE": [
 		{
 			"ButtonData": [
 				{
@@ -15,7 +15,7 @@
 			]
 		}
 	],
-	"Edit": [
+	"EDIT": [
 		{
 			"ButtonData": [
 				{
@@ -41,7 +41,7 @@
 			]
 		}
 	],
-	"Process": [
+	"PROCESS": [
 		{
 			"ButtonData": [
 				{
@@ -57,7 +57,7 @@
 			]
 		}
 	],
-	"Help": [
+	"HELP": [
 		{
 			"ButtonData": [
 				{
