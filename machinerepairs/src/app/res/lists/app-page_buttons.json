@@ -1,7 +1,7 @@
 {
 	"Create": [
 		{
-			"ButtonTextAndLink": [
+			"ButtonData": [
 				{
 					"Text": "Check in",
 					"Link": "/CheckIn",
@@ -27,7 +27,7 @@
 	],
 	"Edit": [
 		{
-			"ButtonTextAndLink": [
+			"ButtonData": [
 				{
 					"Text": "Machine Repair",
 					"Link": "/MachineRepair",
@@ -53,7 +53,7 @@
 	],
 	"Process": [
 		{
-			"ButtonTextAndLink": [
+			"ButtonData": [
 				{
 					"Text": "Machine Repair",
 					"Link": "/MachineRepair",

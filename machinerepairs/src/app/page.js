@@ -17,33 +17,42 @@ export default function Home() {
 				<h1 className={`mb-[calc(3vh)] w-auto border-b-[1px] pb-2`}>
 					Machine Repairs
 				</h1>
-				{
-					// loop over all json items and print the category name
-					Object.entries(hp_buttons).map((h2) => {
-						const h2buttons = h2[1][0].ButtonTextAndLink;
-						return (
-							<div key={(h2_key += 1)}>
-								<h2>{h2[0]}</h2>
-								<div className="grid grid-cols-2 gap-2" id={`hp_${h2[0]}`}>
-									{
-										// loop over all button names in json's buttons and bind links
-										Object.entries(h2buttons).map((b_text) => {
-											console.log(b_text[1].Link);
-											return (
-												<Link href={b_text[1].Link} key={(link_key += 1)}>
-													<Button
-														className={`${b_defaultstyle}`}
-														description={b_text[1].Text}
-													/>
-												</Link>
-											);
-										})
-									}
+				<div className="flex h-full flex-col justify-start">
+					{
+						// map all categories by Top-Level Name
+						Object.entries(hp_buttons).map((category) => {
+							const categoryTitle = category[0];
+							const categoryButtons = category[1][0].ButtonData;
+							return (
+								<div
+									key={(h2_key += 1)}
+									className="mb-8 w-[calc(95vw)] self-center"
+								>
+									<h2>{categoryTitle}</h2>
+									<div
+										className="grid grid-cols-2 gap-2"
+										id={`hp_${categoryTitle}`}
+									>
+										{
+											// loop over all items within category and create the linked buttons
+											Object.entries(categoryButtons).map((categoryItem) => {
+												categoryItem = categoryItem[1];
+												return (
+													<Link href={categoryItem.Link} key={(link_key += 1)}>
+														<Button
+															className={`${b_defaultstyle}`}
+															description={categoryItem.Text}
+														/>
+													</Link>
+												);
+											})
+										}
+									</div>
 								</div>
-							</div>
-						);
-					})
-				}
+							);
+						})
+					}
+				</div>
 			</div>
 		</div>
 	);
