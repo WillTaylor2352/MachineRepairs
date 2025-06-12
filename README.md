@@ -1,5 +1,7 @@
 Copyright (C) Lanham Hardwood Flooring Co., Inc. - All Rights Reserved
+
 Unauthorized copying of this file, via any medium is strictly prohibited
+
 Written by William Taylor
 
 # Lanham Hardwood Flooring Machine Repair system
