@@ -4,12 +4,12 @@
 			"ButtonData": [
 				{
 					"Text": "Machine Repair",
-					"Link": "/MachineRepair",
+					"Link": "/create_Machine_Repair",
 					"function": ""
 				},
 				{
 					"Text": "Transfer",
-					"Link": "/Transfer",
+					"Link": "/create_Transfer",
 					"function": ""
 				}
 			]
@@ -24,8 +24,8 @@
 					"function": ""
 				},
 				{
-					"Text": "Machine",
-					"Link": "/Machine",
+					"Text": "Customer Machine",
+					"Link": "/edit_Machine",
 					"function": ""
 				},
 				{
