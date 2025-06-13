@@ -24,7 +24,7 @@ export default function SideBar({ className }) {
 	const navItems = data;
 	let currkey = 0;
 	return (
-		<div>
+		<div id="sidebar">
 			<div
 				className={`${className} absolute top-1/2 h-[50vh] w-full pl-3 ${sideBarClasses}`}
 			>
