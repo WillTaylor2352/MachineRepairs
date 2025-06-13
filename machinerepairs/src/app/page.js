@@ -13,7 +13,7 @@ export default function Home() {
 				<h1 className={`mb-[calc(3vh)] w-auto border-b-[1px] pb-2`}>
 					Machine Repairs
 				</h1>
-				<h2 cla>NOTES TO SELF</h2>
+				<h2>NOTES TO SELF</h2>
 				<p className="mb-5">
 					make sure to <em>require</em> users to select a branch. Then store
 					that data into localstorage.
