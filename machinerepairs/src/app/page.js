@@ -9,10 +9,15 @@ export default function Home() {
 
 	return (
 		<div className="grid h-full grid-cols-1">
-			<div className="w-[calc(95vw)] self-start justify-self-center md:w-1/2">
+			<div className="w-[calc(95vw)] self-start justify-self-center md:w-3/4 ">
 				<h1 className={`mb-[calc(3vh)] w-auto border-b-[1px] pb-2`}>
 					Machine Repairs
 				</h1>
+				<h2 cla>NOTES TO SELF</h2>
+				<p className="mb-5">
+					make sure to <em>require</em> users to select a branch. Then store
+					that data into localstorage.
+				</p>
 				<div className="grid justify-self-center md:w-[calc(95%)]">
 					{
 						// see hp_buttons import for location of Buttons configuration json
@@ -31,7 +36,7 @@ export default function Home() {
 									</span>
 									<h2 className="inline-block first-letter:text-2xl">{`${categoryTitle}`}</h2>
 									<div
-										className="grid grid-cols-2 gap-2 md:grid-cols-2 xl:grid-cols-3"
+										className="grid grid-cols-2 gap-2 md:ml-4 md:grid-cols-2 xl:grid-cols-3"
 										id={`hp_${categoryTitle}`}
 									>
 										{
@@ -40,7 +45,7 @@ export default function Home() {
 												categoryItem = categoryItem[1];
 												return (
 													<Link href={categoryItem.Link} key={j}>
-														<div className="mx-auto md:w-[calc(92%)]">
+														<div>
 															<Button
 																classes={`btn sm:w-full `}
 																// className={`${b_defaultstyle} w-`}
