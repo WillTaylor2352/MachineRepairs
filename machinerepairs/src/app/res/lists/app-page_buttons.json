@@ -20,28 +20,28 @@
 			"ButtonData": [
 				{
 					"Text": "Machine Repair",
-					"Link": "/MachineRepair",
+					"Link": "/edit_Machine_Repair",
 					"function": ""
 				},
 				{
 					"Text": "Customer Machine",
-					"Link": "/edit_Machine",
+					"Link": "/edit_Customer_Machine",
 					"function": ""
 				},
 				{
 					"Text": "Customer Contact",
-					"Link": "/CustomerContact",
+					"Link": "/edit_Customer_Contact",
 					"function": ""
 				},
 				{
 					"Text": "Transfer",
-					"Link": "/Transfer",
+					"Link": "/edit_Transfer",
 					"function": ""
 				}
 			]
 		}
 	],
-	"PROCESS": [
+	"CLOSE": [
 		{
 			"ButtonData": [
 				{
