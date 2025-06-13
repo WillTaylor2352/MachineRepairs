@@ -37,3 +37,9 @@ h2 {
 		@apply bg-gray-700 p-3 rounded-2xl w-full;
 	}
 }
+
+@media print {
+	#sidebar {
+		display: none;
+	}
+}
