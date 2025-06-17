@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1001 1001">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3 {
+        fill: none;
+        stroke-linejoin: round;
+      }
+
+      .cls-1, .cls-3 {
+        stroke: #d1d3d4;
+        stroke-width: 75px;
+      }
+
+      .cls-2 {
+        opacity: 0;
+        stroke: #000;
+      }
+
+      .cls-3 {
+        stroke-linecap: round;
+      }
+    </style>
+  </defs>
+  <line class="cls-1" x1="273.46" y1="500.5" x2="1000.5" y2="500.5"/>
+  <rect class="cls-2" x=".5" y=".5" width="1000" height="1000"/>
+  <circle class="cls-3" cx="273.46" cy="500.5" r="0"/>
+</svg>
