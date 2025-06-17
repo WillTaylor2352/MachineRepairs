@@ -12,10 +12,19 @@ export default function Home() {
 					Machine Repairs
 				</h1>
 				<h2>NOTES TO SELF</h2>
-				<p className="mb-5">
-					make sure to <em>require</em> users to select a branch. Then store
-					that data into localstorage.
-				</p>
+				<ul className="ml-5 list-disc">
+					<li>
+						<p className="mb-5">
+							make sure to <em>require</em> users to select a branch. Then store
+							that data into localstorage.
+						</p>
+					</li>
+					<li>
+						<p className="mb-5">
+							above could be overridden via a configuration file
+						</p>
+					</li>
+				</ul>
 				<HomeButtons id="homepageButtons" />
 			</div>
 		</div>
