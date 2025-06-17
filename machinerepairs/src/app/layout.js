@@ -31,7 +31,11 @@ export default function RootLayout({ children }) {
 					</div>
 				</header>
 				<main className="h-[calc(100vh-20vh)] min-h-[calc(100vh-30vh)]">
-					{children}
+					<div className="grid h-full grid-cols-1">
+						<div className="w-[calc(95vw)] self-start justify-self-center md:w-3/4 ">
+							{children}
+						</div>
+					</div>
 				</main>
 			</body>
 		</html>
