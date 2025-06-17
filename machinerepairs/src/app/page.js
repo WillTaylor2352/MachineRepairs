@@ -19,11 +19,6 @@ export default function Home() {
 							that data into localstorage.
 						</p>
 					</li>
-					<li>
-						<p className="mb-5">
-							above could be overridden via a configuration file
-						</p>
-					</li>
 				</ul>
 				<HomeButtons id="homepageButtons" />
 			</div>

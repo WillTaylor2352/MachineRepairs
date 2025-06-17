@@ -4,12 +4,12 @@
 			"ButtonData": [
 				{
 					"Text": "Machine Repair",
-					"Link": "/create_Machine_Repair",
+					"Link": "/Create/Machine_Repair",
 					"function": ""
 				},
 				{
 					"Text": "Transfer",
-					"Link": "/create_Transfer",
+					"Link": "/Create/Transfer",
 					"function": ""
 				}
 			]
@@ -20,22 +20,22 @@
 			"ButtonData": [
 				{
 					"Text": "Machine Repair",
-					"Link": "/edit_Machine_Repair",
+					"Link": "/Edit/Machine_Repair",
 					"function": ""
 				},
 				{
 					"Text": "Customer Machine",
-					"Link": "/edit_Customer_Machine",
+					"Link": "/Edit/Customer_Machine",
 					"function": ""
 				},
 				{
 					"Text": "Customer Contact",
-					"Link": "/edit_Customer_Contact",
+					"Link": "/Edit/Customer_Contact",
 					"function": ""
 				},
 				{
 					"Text": "Transfer",
-					"Link": "/edit_Transfer",
+					"Link": "/Edit/Transfer",
 					"function": ""
 				}
 			]
@@ -46,12 +46,12 @@
 			"ButtonData": [
 				{
 					"Text": "Machine Repair",
-					"Link": "/close_Machine_Repair",
+					"Link": "/Close/Machine_Repair",
 					"function": ""
 				},
 				{
 					"Text": "Transfer",
-					"Link": "/close_Transfer",
+					"Link": "/Close/Transfer",
 					"function": ""
 				}
 			]
