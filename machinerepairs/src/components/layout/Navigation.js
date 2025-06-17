@@ -25,7 +25,11 @@ export default async function Navigation({ className }) {
 					);
 				})}
 			</ul>
-			<ThemeSwitcher li={liclass} lrs={`${leftRightSizing}`} />
+			<ThemeSwitcher
+				li={liclass}
+				lrs={`${leftRightSizing}`}
+				className="invisible"
+			/>
 		</div>
 	);
 }
