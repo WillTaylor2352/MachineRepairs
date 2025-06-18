@@ -1,7 +1,7 @@
 import Image from 'next/image';
 export default function Arrow({ width, height, className }) {
 	return (
-		<div className={`flex h-[44px] ${className}`}>
+		<div className={`flex h-[44px] ${className} mr-3`}>
 			<Image
 				src={'/arrow_tail.svg'}
 				width={width}
