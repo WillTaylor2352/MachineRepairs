@@ -1,9 +1,15 @@
+import FunctionPageHeader from '@/components/server/Function_Page_Header';
+
 export default function Page() {
 	const listyles = `mb-5`;
 	const olroutestyles = `list-disc`;
 	const liroutestyles = `mb-4`;
 	return (
 		<div className="ml-10">
+			<FunctionPageHeader
+				hereText={'Edit Machine Repair'}
+				nextStepText={'Home'}
+			/>
 			<h1>Blocking / ideas</h1>
 			<h2>Flow</h2>
 			<ol className="list-decimal">
