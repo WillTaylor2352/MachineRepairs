@@ -2,6 +2,7 @@ import { Geist, Geist_Mono } from 'next/font/google';
 import './globals.css';
 import Navigation from '@/components/layout/Navigation';
 import SideBar from '@/components/layout/Sidebar_Navigation';
+import BPCheck from '@/components/client/breakpoint_checker';
 
 const geistSans = Geist({
 	variable: '--font-geist-sans',
@@ -26,6 +27,7 @@ export default function RootLayout({ children }) {
 			>
 				<header>
 					<div>
+						<BPCheck />
 						<Navigation className="invisible h-0 lg:visible lg:h-full" />
 						<SideBar className="visible bg-red-700 lg:invisible lg:h-0" />
 					</div>
