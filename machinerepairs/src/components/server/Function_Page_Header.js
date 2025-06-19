@@ -23,7 +23,7 @@ export default function FunctionPageHeader({
 	return (
 		<div>
 			<div className="flex flex-col justify-between border-b-[1px] pb-3 md:flex-row">
-				<StepHeader
+				<StepBuilder
 					stepTitleCSS={stepTitleCSS}
 					stepText={hereText}
 					stepSequence="This Step"
@@ -35,7 +35,7 @@ export default function FunctionPageHeader({
 						className="relative top-[7px] mb-5 self-start md:top-[-7px] md:mb-0 md:self-center"
 					/>
 				</div>
-				<StepHeader
+				<StepBuilder
 					stepTitleCSS={stepTitleCSS}
 					stepText={nextStepText}
 					stepSequence="Next Step"
@@ -44,7 +44,7 @@ export default function FunctionPageHeader({
 		</div>
 	);
 }
-function StepHeader({ stepTitleCSS, stepText, stepSequence }) {
+function StepBuilder({ stepTitleCSS, stepText, stepSequence }) {
 	const s = stepTitleCSS;
 	return (
 		<div className={`${s.flexSet} `}>
