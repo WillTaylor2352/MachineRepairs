@@ -11,6 +11,11 @@
 					"Text": "Transfer",
 					"Link": "/Create/Transfer",
 					"function": ""
+				},
+				{
+					"Text": "Customer Machine",
+					"Link": "/Create/CustomerMachine",
+					"function": ""
 				}
 			]
 		}
