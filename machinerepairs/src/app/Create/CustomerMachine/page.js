@@ -1,3 +1,5 @@
+import FindCustomerMachine from '@/components/client/Find/FindCustomerMachine';
+import Disclaimer from '@/components/server/Disclaimer';
 import FunctionPageHeader from '@/components/server/Function_Page_Header';
 
 export default function Page() {
@@ -7,6 +9,8 @@ export default function Page() {
 				hereText={'Create Customer Machine'}
 				nextStepText={'Home'}
 			/>
+			<Disclaimer disclaimerText={'Customer Machine'} />
+			<FindCustomerMachine />
 		</div>
 	);
 }
